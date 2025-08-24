@@ -10,7 +10,7 @@ const app = express();
 
 /* using middlewares */
 app.use(cors({
-    origin:[ 'http://localhost:5173',"https://frolicking-dodol-47fdcb.netlify.app"],  // for dev
+    origin:"https://frolicking-dodol-47fdcb.netlify.app",  // for dev
     credentials: true
 }));
 
